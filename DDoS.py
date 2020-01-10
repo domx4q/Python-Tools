@@ -1,9 +1,15 @@
 import socket
 from threading import Thread
+import string
+letters = string.ascii_letters
+numbers = string.digits
 
 host = input("Bitte Host eingeben: \r\n")
-ip = socket.gethostbyname(host)
-#ip = host
+for i in range(0, len(host)):
+    if host[i] in letters:
+        ip = socket.gethostbyname(host)
+    elif host[i] in numbers:
+        ip = host
 port = 80
 count = int(input("Bitte die Anzahl der Threads eingeben: "))
 print("IP:" + ip)
