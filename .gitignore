@@ -1,1 +1,5 @@
 *.xml
+Backdoor*
+exportToHTML/
+testMail.py
+*.zip
