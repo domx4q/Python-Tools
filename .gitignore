@@ -4,4 +4,5 @@ exportToHTML/
 testMail.py
 *.zip
 *.html
-test.txt
+.idea/
+__pycache__/
