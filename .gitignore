@@ -1,0 +1,8 @@
+*.xml
+Backdoor*
+exportToHTML/
+testMail.py
+*.zip
+*.html
+.idea/
+__pycache__/
