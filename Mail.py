@@ -17,7 +17,7 @@ def send_email(subject, msg):
         #print("Email failed to send.")
 
 
-subject = "Gesammelte Daten von Python Tools"
+subject = "Gesammelte DAten von Python Tools"
 msg = "Hello there, how are you today?"
 
 #send_email(subject, msg)
